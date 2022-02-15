@@ -7,6 +7,9 @@
 // Challenge 1
 //
 // Loop through the following array, console.logging out each value.
+
+let text = "";
+/*
 const students = [
   'Tre',
   'Sonny',
@@ -22,21 +25,71 @@ const students = [
   'Arnold',
   'Andy'
 ];
+// for loop then printing to console .log, incresing the count once as it was at 0
+for (let increment = 0; increment < students.length; increment++) {
+  text += students[increment] + "<br>";
+}
+console.log(students)
+
+*/
 
 
+
+
+
+
+/*
 // Challenge 2
 // Loop through the following array BACKWARDS, console.logging out each value. 64 should be printed first and 100 last.
 const grades = [100, 80, 110, 75, 83, 64];
 
 
+
+
+// for loop then printing to console .log, incresing the count once as it was at 0
+for (let increment = 0; increment < grades.length; increment++) {
+  text += grades[increment] + "<br>";
+}
+console.log(grades.reverse())
+
+//.reverse() - reverse the array
+// console.log(myArray.reverse());
+*/
+
+
+
+
+
+
+/*
 // Challenge 3
 // Console.log out only the even numbers in the following array.
 const positiveNumbers = [5, 2, 13, 17, 4, 102, 3000];
+
+ 
+
+for (let i = 0; i < positiveNumbers.length; i++) {
+ let num = positiveNumbers[i];
+  if (num % 2 === 0 ){
+  console.log(num);
+}
+}
+*/
+
 
 
 // Challenge 4
 // Console.log out the even numbers in the following array, INCLUDING the negative ones. There should be four total printings.
 const mixedSignNumbers = [3, 15, 14, -2, -3, -8, -103, 4];
+
+for (let i = 0; i < mixedSignNumbers.length; i++) {
+  let num = mixedSignNumbers[i];
+   if (num % 2 === 0 ){
+   console.log(num);
+ }
+ }
+ 
+
 
 
 // Challenge 5
